@@ -61,3 +61,8 @@
 <h3>Working for 'example-build'</h3>
 <p align="justify">After that, you have to install Grunt on a per-project basis. Go to your project’s folder. It needs a file there named <code>package.json</code> at the root level. You can just create one and put it there.</p>
 <p align="justify">1. <code>$ cd example-build</code><br/>2. <code>$ npm init</code></p>
+<h3>Configuring NPM:</h3>
+<p align="justify">In the <code>package.json</code> file, inside the devDependencies object braces, enter “grunt”, then put colon and version of it.</p>
+<p align="justify">There is a simple way also to to do it. On Terminal of Mac OS, just type npm init and it will let you through all the processing.</p>
+<p align="justify"><b>Note</b>: NPM uses <a href="http://semver.org/">semantic versioning</a> to organize dependencies. Semantic versioning, also known as SemVer, identifies packages with the numbering scheme. Always consider the latest stable version of the package. The caret (^) symbol matches the most recent major version and the tilde (~) matches the most recent minor version. See the <a href="https://www.npmjs.com/package/semver">NPM semver version parser reference</a> as a guide to the full expressivity that SemVer provides.</p>
+<p align="justify">Add more dependencies to load grunt-contrib* packages for clean, less, jshint, concat, uglify and watch as shown in the example below. The versions do not need to match the example.</p>
