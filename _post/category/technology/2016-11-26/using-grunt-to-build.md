@@ -25,3 +25,7 @@
 <p align="justify">The extent to which you need to use the command line is:</p>
 <p align="justify">1. Navigate to your project’s directory.<br/>2. Type <code>$ grunt</code> and press <b>Return</b>.</p>
 <p align="justify">After set-up, that is, which again isn’t particularly difficult.</p>
+<h3>Okay. Let's get Grunt Installed</h3>
+<p align="justify"><a href="https://nodejs.org/en/">Node</a> is indeed a prerequisite for Grunt. If you don’t have Node installed, don’t worry, it’s very easy. You literally <a href="https://nodejs.org/en/download/">download</a> an installer and run it. Click the big Install button on the Node website.</p>
+<p align="justify">Now, you have to install Grunt. To do this, just use Terminal of your OS and type:</p>
+<p align="justify">1. <code>$ npm install grunt -g</code><br/>2. <code>$ npm install grunt-cli -g</code></p>
