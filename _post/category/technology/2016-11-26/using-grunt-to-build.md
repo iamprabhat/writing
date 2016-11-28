@@ -66,3 +66,44 @@
 <p align="justify">There is a simple way also to to do it. On Terminal of Mac OS, just type npm init and it will let you through all the processing.</p>
 <p align="justify"><b>Note</b>: NPM uses <a href="http://semver.org/">semantic versioning</a> to organize dependencies. Semantic versioning, also known as SemVer, identifies packages with the numbering scheme. Always consider the latest stable version of the package. The caret (^) symbol matches the most recent major version and the tilde (~) matches the most recent minor version. See the <a href="https://www.npmjs.com/package/semver">NPM semver version parser reference</a> as a guide to the full expressivity that SemVer provides.</p>
 <p align="justify">Add more dependencies to load grunt-contrib* packages for clean, less, jshint, concat, uglify and watch as shown in the example below. The versions do not need to match the example.</p>
+
+```{js}
+{
+  "name": "example-build",
+  "version": "0.0.1",
+  "description": "From the Desk of Prabhat Kumar — CEO, Founder and Scientist.",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamprabhat/"
+  },
+  "keywords": [
+    "grunt",
+    "plugin",
+    "example",
+    "build"
+  ],
+  "author": "Prabhat Kumar <prabhat.genome@gmail.com> (http://prabhatkumar.org/)",
+  "license": "MIT",
+  "homepage": "http://prabhatkumar.org/",
+  "dependencies": {
+    "chalk": "^1.1.3"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^0.6.1",
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  }
+}
+```
