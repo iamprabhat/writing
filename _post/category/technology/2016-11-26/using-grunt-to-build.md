@@ -22,3 +22,6 @@
     <p align="justify">I’m a designer too. I prefer native apps with graphical interfaces when I can get them. But I don’t think that’s going to happen with Grunt<sup>1.</sup></p>
   </li>
 </ol>
+<p align="justify">The extent to which you need to use the command line is:</p>
+<p align="justify">1. Navigate to your project’s directory.<br/>2. Type <code>$ grunt</code> and press <b>Return</b>.</p>
+<p align="justify">After set-up, that is, which again isn’t particularly difficult.</p>
