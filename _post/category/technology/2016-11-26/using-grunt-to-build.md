@@ -29,3 +29,32 @@
 <p align="justify"><a href="https://nodejs.org/en/">Node</a> is indeed a prerequisite for Grunt. If you don’t have Node installed, don’t worry, it’s very easy. You literally <a href="https://nodejs.org/en/download/">download</a> an installer and run it. Click the big Install button on the Node website.</p>
 <p align="justify">Now, you have to install Grunt. To do this, just use Terminal of your OS and type:</p>
 <p align="justify">1. <code>$ npm install grunt -g</code><br/>2. <code>$ npm install grunt-cli -g</code></p>
+<p align="justify">I’m using an <a href="https://gist.github.com/iamprabhat/ab14676bb8f432460efcf5e31af24f11">example code</a> to work with grunt to build everyday task(s).</p>
+<p align="justify">The finished example cleans the target deployment directory, combines JavaScript files, checks code quality, condenses JavaScript file content and deploys to the root of the web application.</p>
+<p align="justify"><b>I will use the following</b> <i>packages</i>:</p>
+<ol>
+  <li>
+    <p align="justify"><a href="https://github.com/gruntjs/grunt">grunt</a>: The Grunt task runner package.</p>
+  </li>
+  <li>
+    <p align="justify"><a href="https://github.com/gruntjs/grunt-cli">grunt-cli</a>: The Grunt command line interface.</p>
+  </li>
+  <li>
+    <p align="justify"><a href="https://github.com/gruntjs/grunt-contrib-clean">grunt-contrib-clean</a>: A plugin that removes files or directories.</p>
+  </li>
+  <li>
+    <p align="justify"><a href="https://github.com/gruntjs/grunt-contrib-less">grunt-contrib-less</a>: A plugin to Compile LESS files to CSS.</p>
+  </li>
+  <li>
+    <p align="justify"><a href="https://github.com/gruntjs/grunt-contrib-jshint">grunt-contrib-jshint</a>: A plugin that reviews JavaScript code quality.</p>
+  </li>
+  <li>
+    <p align="justify"><a href="https://github.com/gruntjs/grunt-contrib-concat">grunt-contrib-concat</a>: A plugin that joins files into a single file.</p>
+  </li>
+  <li>
+    <p align="justify"><a href="https://github.com/gruntjs/grunt-contrib-uglify">grunt-contrib-uglify</a>: A plugin that minifies JavaScript to reduce size.</p>
+  </li>
+  <li>
+    <p align="justify"><a href="https://github.com/gruntjs/grunt-contrib-watch">grunt-contrib-watch</a>: A plugin that watches file activity.</p>
+  </li>
+</ol>
