@@ -58,3 +58,6 @@
     <p align="justify"><a href="https://github.com/gruntjs/grunt-contrib-watch">grunt-contrib-watch</a>: A plugin that watches file activity.</p>
   </li>
 </ol>
+<h3>Working for 'example-build'</h3>
+<p align="justify">After that, you have to install Grunt on a per-project basis. Go to your project’s folder. It needs a file there named <code>package.json</code> at the root level. You can just create one and put it there.</p>
+<p align="justify">1. <code>$ cd example-build</code><br/>2. <code>$ npm init</code></p>
