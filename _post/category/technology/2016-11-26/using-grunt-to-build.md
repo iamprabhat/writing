@@ -107,3 +107,7 @@
   }
 }
 ```
+
+<p align="justify">Now, Save the <code>package.json</code> file.</p>
+<p align="justify">The packages for each <code>dependencies</code> and <code>devDependencies</code> item will download, along with any files that each package requires. You can find the package files in the <code>node_modules</code> directory.</p>
+<p align="justify">To do this just type:<code>$ npm install</code></p>
